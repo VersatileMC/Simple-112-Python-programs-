@@ -1,0 +1,3 @@
+# Smart Coders - Problem 44
+n=int(input("N: "))
+for i in range(n,0,-1): print(i)
