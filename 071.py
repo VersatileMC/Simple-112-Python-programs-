@@ -1,0 +1,9 @@
+# Smart Coders - Problem 71
+n=int(input("Non-negative decimal: "))
+if n<0: print("Enter non-negative number")
+elif n==0: print("Binary: 0")
+else:
+ binary=""
+ while n>0:
+  binary=str(n%2)+binary;n//=2
+ print("Binary:",binary)
